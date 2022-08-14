@@ -1,6 +1,6 @@
 # Xterm tone map
 
-[PCCS][pccs]と[Xterm 256色][xterm-256]の対応表です。
+[PCCS][pccs]と[Xterm 256色][xterm256]の対応表です。
 ターミナル環境の設定でいい感じの色使いにしたくて作成しました。
 
 [pccs]:https://www.dic-color.com/knowledge/pccs.html
@@ -13,7 +13,7 @@ python3 xterm-tone-map.py > out/xterm-tone-map.txt
 ```
 
 出力した`xterm-tone-map.txt`をVSCodeの`Color Highlight`拡張機能を使ってみると近い色が確認できます。
-一番近い色を抜き出したものがhtmlになってるので`xterm-tone-map.html`ファイルとして保存するとブラウザで確認できます。
+一番近い色を抜き出したものがhtmlになってるので[xterm-tone-map.html](https://arkbig.github.io/color-coordinate/out/xterm-tone-map.html)ファイルとして保存するとブラウザで確認できます。
 
 ## 注意
 
